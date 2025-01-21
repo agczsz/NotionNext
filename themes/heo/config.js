@@ -1,4 +1,7 @@
 const CONFIG = {
+  HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
+  HEO_LOADING_COVER: true, // 页面加载的遮罩动画
+
   HEO_HOME_BANNER_ENABLE: true,
 
   HEO_SITE_CREATE_TIME: '2022-09-21', // 建站日期，用于计算网站运行的第几天
@@ -36,7 +39,6 @@ const CONFIG = {
     '你好！我是',
     '🤖️ 数码科技爱好者'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/agczsz', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
